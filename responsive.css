@@ -1,0 +1,505 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1449px) {}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mega__menu__inner__wrap {
+        max-width: 960px;
+    }
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer__social__blk {
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .footer__right__content__blk .foooter__content {
+        margin-top: 13px;
+    }
+
+    .site__identity a {
+        margin-right: 40px;
+    }
+
+    .register__area {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+
+    .brand__area {
+        padding: 30px 0;
+        margin-top: 70px;
+        padding-top: 60px;
+    }
+
+    .meet__content h4 {
+        margin-bottom: 15px;
+    }
+
+    .meet__left__blk {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .success__right__blk {
+        margin-top: 20px;
+    }
+
+    .susccess__area {
+        padding: 50px 0;
+    }
+
+    .success__right__wrap {
+        justify-content: center;
+    }
+
+    .success__left__blk {
+        text-align: center;
+    }
+
+    .mega__menu__inner__wrap {
+        max-width: 720px;
+    }
+
+    .mega__menu__wrap {
+        padding: 40px 0;
+    }
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__social__blk {
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .footer__right__content__blk .foooter__content {
+        margin-top: 13px;
+    }
+
+    .site__identity a {
+        margin-right: 40px;
+    }
+
+    .register__area {
+        padding: 70px 0;
+    }
+
+    .brand__area {
+        padding: 0;
+        margin-top: 40px;
+        padding-top: 35px;
+    }
+
+    .meet__content h4 {
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+
+    .meet__left__blk {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero__area {
+        min-height: 400px;
+    }
+
+    .hero__slide__blk::before {
+        display: none;
+    }
+
+    .hero__slide__blk::after {
+        display: none;
+    }
+
+    .hero__slide__blk .owl-nav button {
+        display: none;
+    }
+
+    .single__hero__slide h4 {
+        font-size: 28px;
+        max-width: 370px;
+    }
+
+
+    .meet__left__blk img {
+        height: 77px;
+    }
+
+    .meet__area {
+        padding-top: 70px;
+    }
+
+    .header__top__blk {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .header__search__blk form input {
+        width: 200px;
+    }
+
+    .header__login__blk {
+        margin-left: 30px;
+    }
+
+    .open__menu {
+        text-align: right;
+        color: #71253E;
+        font-size: 22px;
+        padding: 10px 0;
+        display: block;
+        margin-top: 10px;
+        border-top: 1px solid #71253E;
+    }
+
+    .main__menu ul {
+        display: unset;
+    }
+
+    .main__menu ul li a {
+        padding: 8px 0;
+        display: block;
+    }
+
+    .main__menu ul li {
+        border-bottom: 1px solid #71253E;
+        padding: 6px 0;
+    }
+
+    .main__menu ul li a:hover {
+        padding-left: 4px;
+    }
+
+    .main__menu {
+        padding: 20px;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        height: 100%;
+        z-index: 999;
+        transition: .3s all;
+        background: #fff;
+        width: 330px;
+        padding-top: 120px;
+    }
+
+    .close__menu {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        color: #71253E;
+        cursor: pointer;
+        display: block;
+    }
+
+    .overlay {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #00000078;
+        z-index: 66;
+        transition: .5s all;
+    }
+
+    .main__menu.active {
+        left: 0;
+    }
+
+    .overlay.active {
+        left: 0;
+    }
+
+    .register__content {
+        text-align: center;
+    }
+
+    .register__content p {
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .success__right__wrap {
+        justify-content: center;
+    }
+
+    .success__left__blk {
+        text-align: center;
+    }
+
+    .success__right__blk {
+        margin-top: 20px;
+    }
+
+    .susccess__area {
+        padding: 35px 0;
+    }
+
+    .success__left__blk h4 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .success__right__blk p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .success__right__blk a {
+        font-size: 17px;
+        border-radius: 8px;
+        transition: .3s all;
+        padding: 5px 18px;
+    }
+
+    .accordion-button {
+        padding: 8px 12px;
+        font-size: 13px;
+        line-height: 24px;
+        padding-right: 105px;
+    }
+
+    .accordion-button::after {
+        position: absolute;
+        right: 10px;
+    }
+
+    .accordion-button span {
+        right: 35px;
+    }
+
+    .accordion-button span {
+        font-size: 11px;
+    }
+
+    .accordion-body p {
+        font-size: 13px;
+    }
+
+    .result__right__blk {
+        border: 0;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    .total__bottom__btn a {
+        font-size: 14px;
+    }
+
+    .italian__bread__title h3 {
+        font-size: 16px;
+    }
+
+    .result__inner__blk h4 {
+        font-size: 14px;
+    }
+
+    .result__inner__blk p {
+        font-size: 14px;
+    }
+
+    .result__inner__blk.extra__line__height p {
+        line-height: 23px;
+    }
+
+    .total__bottom__btn {
+        margin-top: 25px;
+    }
+
+    .result__title p {
+        font-size: 16px;
+    }
+
+    .result__area {
+        padding-top: 40px;
+    }
+
+    .prescription__top__content {
+        text-align: center;
+    }
+
+    .bread__blk {
+        padding: 20px;
+    }
+
+    .cookboox img {
+        width: 100%;
+    }
+
+    .cookboox__area {
+        margin: 60px 0;
+        margin-top: 40px;
+    }
+
+    .click_top_top {
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+    }
+
+    .account__area {
+        padding-top: 40px;
+        padding-bottom: 65px;
+    }
+
+    .account__btn {
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    .account__btn.mt-30 {
+        margin-top: 10px;
+    }
+
+    .mega__menu__inner__wrap {
+        max-width: 720px;
+    }
+
+    .mega__menu__wrap {
+        padding: 10px 0;
+    }
+
+    .none__phone {
+        display: none;
+    }
+
+    .none__desk {
+        display: block;
+    }
+
+    .main__menu ul li .accordion-button {
+        background: transparent !important;
+        box-shadow: unset;
+        border-radius: unset !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2625px;
+        text-transform: uppercase;
+        color: #71253E !important;
+    }
+
+    .dropdown__menu h3 {
+        margin-bottom: 5px;
+        font-size: 28px;
+    }
+
+    .dropdown__menu ul li {
+        border: 0;
+        padding: 0;
+    }
+
+    .dropdown__menu ul li {
+        border: 0;
+        padding: 0;
+    }
+
+    .dropdown__menu {
+        background: #ddd;
+        padding: 8px;
+    }
+
+    .main__menu .accordion-button::after {
+        filter: brightness(0);
+    }
+
+    .single__hero__slide {
+        min-height: 400px;
+    }
+
+    .hero__slide__blk {
+        min-height: 400px;
+    }
+
+    .accordion__btn__content {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .play__btn i {
+        font-size: 11px;
+        padding-right: 10px;
+    }
+
+    .play__btn::before {
+        bottom: -10px;
+    }
+
+    .cookboox {
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .download__point {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #A83252B5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: .3s all;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .download__point img {
+        height: 62px;
+    }
+
+    .download__point p {
+        padding-top: 14px;
+        padding-bottom: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .cookboox:hover .download__point {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .hero__area {
+        min-height: 260px;
+    }
+
+    .hero__slide__blk .owl-dots {
+        bottom: -111px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .header__search__blk form input {
+        width: 298px;
+    }
+}
